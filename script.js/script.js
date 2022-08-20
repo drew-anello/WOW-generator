@@ -1,5 +1,5 @@
 // Var's
-const URL = 'https://owen-wilson-wow-api.herokuapp.com/wows/directors';
+const URL = 'https://owen-wilson-wow-api.herokuapp.com/wows/random?results=10&sort=movie&direction=desc';
 console.log(URL)
 const $form = $('form');
 const $input = $('input[type="text"]')
@@ -8,6 +8,12 @@ const $input = $('input[type="text"]')
 
 $form.on('submit', handleGetData)
 
+// Functions 
+
+$.ajax(URL+userInput).then(function (data) {
+  
+    $('main').append('')
+})
 
 
 
