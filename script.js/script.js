@@ -2,7 +2,9 @@
 const URL = 'https://owen-wilson-wow-api.herokuapp.com/wows/random?results=10&sort=movie&direction=desc';
 console.log(URL)
 const $form = $('form');
-const $input = $('input[type="text"]')
+let $input = $('input[type="text"]')
+let $year = $('#year');
+let $numberOfWows = $('#wowInMovie')
 
 // Event Listener (submit button)
 
