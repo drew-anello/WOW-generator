@@ -5,6 +5,7 @@ const $form = $('form');
 let $input = $('input[type="text"]')
 let $year = $('#year');
 let $numberOfWows = $('#wowInMovie')
+let $wowCount = $('#numberWow')
 
 // Event Listener (submit button)
 
