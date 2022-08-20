@@ -12,13 +12,25 @@ let $wowCount = $('#numberWow')
 $form.on('submit', handleGetData)
 
 // Functions 
+function handleGetData(event) {
+    event.preventDefault()
+    userInput = $input.val()
+    if (userInput === '') return;
 
-$.ajax(URL+userInput).then(function (data) {
-  
-    $('main').append('')
-})
 
+    $.ajax(URL + userInput).then(function (data) {
 
+        $('main').append('')
+        $title.text(data.Title)
+        $year.text(data.Year)
+        $numberOfWows.text(data.totalWowsInMovie)
+        $wowCount.text(data.currentWowinMovie)
+        $('main').append(`<video src="${data.video}" alt="${data.audio}" controls/>`)
+        $input.val('')
+
+    })
+
+}
 
 
 
