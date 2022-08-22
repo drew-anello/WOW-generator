@@ -1,8 +1,19 @@
-// Link API //
-////////////////////////////////////
+// user submit form //
+///////////////////////
+
+// addEventListener('submit')
+const form = document.getElementById('form')
 
 
-fetch('https://owen-wilson-wow-api.herokuapp.com/wows/random');
-console.log('fetch')
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+})
+
+
+// Sorting by year
+///////////////////
+
+/
+
 
 
