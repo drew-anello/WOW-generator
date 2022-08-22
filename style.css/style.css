@@ -1,5 +1,9 @@
 body {
+    margin: 10px;
+    padding: 3%;
     background-color: #ffffff;
+
+
 }
 
 h1 {
@@ -20,4 +24,43 @@ h1 span:nth-child(2) {
 
 h1 span:last-child {
     color: yellow;
+}
+
+img {
+    width: fit-content;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    align-content: center;
+}
+
+form {
+    text-align: center;
+}
+
+.number {
+    width: 12%;
+    border-style: solid;
+    color: #0F9D58;
+}
+
+.submit,
+.reset {
+    width: fit-content;
+    color: black;
+    block-size: 3%;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+}
+
+.submit {
+    background-color: #4681f4;
+}
+
+.reset {
+    background-color: red;
+}
+
+.slider {
+    width: 15%;
 }
