@@ -1,7 +1,23 @@
-body {}
+body {
+    background-color: #ffffff;
+}
 
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 100px;
+    text-align: center;
 
+}
+
+h1 span:first-child {
+    color: #4c8bf5;
+}
+
+h1 span:nth-child(2) {
+    color: #DD4B39;
+}
+
+h1 span:last-child {
+    color: yellow;
 }
