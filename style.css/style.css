@@ -38,6 +38,11 @@ form {
     text-align: center;
 }
 
+.numOfWow{
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 30px;
+}
 .number {
     width: 12%;
     border-style: solid;
