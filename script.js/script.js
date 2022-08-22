@@ -1,9 +1,14 @@
-// user submit form //
+// fetch api///
+///////////////
+fetch('https://owen-wilson-wow-api.herokuapp.com/wows/random');
+
+// user submit form /
 ///////////////////////
 
-// addEventListener('submit')
-const form = document.getElementById('form')
+const year = document.getElementsByClassName('number');
 
+addEventListener('submit')
+const form = document.getElementById('form')
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -12,8 +17,6 @@ form.addEventListener('submit', (e) => {
 
 // Sorting by year
 ///////////////////
-
-/
 
 
 
