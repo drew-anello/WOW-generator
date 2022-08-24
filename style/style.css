@@ -68,6 +68,22 @@ form {
     width: 25%;
 }
 
+ul {
+    list-style: none;
+}
+
 .movie-title {
+    
+    align-content: center;
+    align-items: center;
     font-family: 'Comic Sans MS';
+}
+
+video {
+    display: block;
+    margin: auto;
+    width: 320px;
+    height: 200px;
+    align-content: center;
+    justify-items: center;
 }
