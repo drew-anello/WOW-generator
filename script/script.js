@@ -20,10 +20,13 @@ formEl.addEventListener('submit', async (e) => {
     const response = await fetch(url);
     const movies = await response.json();
 
-    const html = movies.map((movies) => 
-    )
-
-
-    
-})
+// appear on page
+    const html = movies.map((movie) => ` 
+    <li>
+        <span class="movie-title">${movie.movie}</span>
+        <video src="${movie.video['1080p']}" controls></video>
+        </li>
+    `).join('');
+    outputEl.innerHTML = html;
+});
 
