@@ -9,9 +9,11 @@ LANGUAGES and API USED
 * HTML 
 * CSS 
 * JavaScript
+* Jquery 
+* AJAX
 * https://owen-wilson-wow-api.herokuapp.com/wows/random
 
-I did not want to include jquery in this project but I have included a .js file that has my code written with jquery to show that I know how to use it. 
+I've included a jquery,js file once project is submited I plan on getting rid of jquery and ajax. 
 
 
 
