@@ -23,7 +23,7 @@
     
 //         const url = `https://owen-wilson-wow-api.herokuapp.com/wows/random?results=100&year=${year}&wow_in_movie=${wowCount}`;
     
-//         const response = await fetch(url);
+        // const response = await fetch(url);
 //         const movies = await response.json();
     
 //         const html = movies.map((movie) => `
