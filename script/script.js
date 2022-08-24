@@ -2,6 +2,7 @@
 const formEl = document.querySelector('form');
 const yearEl = document.querySelector('.number');
 const sliderEl = document.querySelector('#wow-slide');
+const outputEl = document.querySelector('#output');
 
 
 
@@ -12,7 +13,8 @@ formEl.addEventListener('submit', async (e) => {
 
     const year = parseInt(yearEl.value)
     const wowCount = parseInt(sliderEl.value);
-    console.log(sliderEl);
+
+
     
 })
 
