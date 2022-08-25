@@ -17,10 +17,10 @@ LANGUAGES and API USED
 
 I've included a jquery,js file once project is submited I plan on getting rid of jquery and ajax. post project I will stay up to date by expanding the years that can be selected as api gets updated 
 
-<img width="1512" alt="Screen Shot 2022-08-24 at 10 21 48 PM" src="https://user-images.githubusercontent.com/106771036/186562641-88b5ca03-7546-4839-b420-5aaff1003853.png">
+<img width="1512" alt="Screen Shot 2022-08-25 at 10 59 28 AM" src="https://user-images.githubusercontent.com/106771036/186700084-f7d6ec7d-e20c-448b-bab2-68cc5d553892.png">
 
 
+<img width="1512" alt="Screen Shot 2022-08-25 at 10 59 36 AM" src="https://user-images.githubusercontent.com/106771036/186699940-05118376-b0b3-4ea1-9379-d8b5b485f3d2.png">
 
-<img width="1512" alt="Screen Shot 2022-08-24 at 10 47 14 PM" src="https://user-images.githubusercontent.com/106771036/186562798-6c42dd97-7c0d-4440-b96a-159ba20b0049.png">
 
 
