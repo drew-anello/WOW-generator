@@ -21,3 +21,6 @@ I've included a jquery,js file once project is submited I plan on getting rid of
 
 
 
+<img width="1512" alt="Screen Shot 2022-08-24 at 10 47 14 PM" src="https://user-images.githubusercontent.com/106771036/186562798-6c42dd97-7c0d-4440-b96a-159ba20b0049.png">
+
+
