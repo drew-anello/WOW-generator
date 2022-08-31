@@ -17,8 +17,7 @@ formEl.addEventListener('submit', async (e) => {
     // connecting api
     const url = `https://owen-wilson-wow-api.herokuapp.com/wows/random?results=100&year=${year}&wow_in_movie=${wowCount}`;
 
-    // $.ajax(url)
-
+    
     const response = await fetch(url);
     const movies = await response.json();
 
