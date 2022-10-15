@@ -4,7 +4,9 @@ const yearEl = document.querySelector('.number');
 const sliderEl = document.querySelector('#wow-slide');
 const outputEl = document.querySelector('#output');
 
-
+import {
+    url
+} from "./wows"
 
 // user submit form
 
@@ -15,7 +17,7 @@ formEl.addEventListener('submit', async (e) => {
     const wowCount = parseInt(sliderEl.value);
 
     // connecting api
-    const url = `https://owen-wilson-wow-api.herokuapp.com/wows/random?results=100&year=${year}&wow_in_movie=${wowCount}`;
+    // const url = `https://owen-wilson-wow-api.herokuapp.com/wows/random?results=100&year=${year}&wow_in_movie=${wowCount}`;
 
     
     const response = await fetch(url);
