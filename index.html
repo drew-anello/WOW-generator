@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WOW</title>
-
 
     <!-- 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script> -->
     <!-- <script src="./script/jquery.js" defer></script> -->
-    <script src="./script/script.js" defer></script>
+    <script type="modules" src="./script/script.js"></script>
 
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
     <!-- h1 font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Yanone+Kaffeesatz&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <img src="./images/owen.jpeg" class="center">
+  <body>
+    <img src="./images/owen.jpeg" class="center" />
 
     <h1><span>W</span><span>O</span><span>W</span></h1>
 
     <!-- add form with slider and search wow by year-->
     <form id="form">
-        <label class="num-of-wow">Number of Wows
-            <input type="range" min="0" max="10" step="1" class="slider" id="wow-slide">
-        </label>
-        <input type="number" min="1996" max="2017" placeholder="Year" class="number">
-        <input type="submit" value="WOW" class="submit">
-        <input type="reset" value="UN-WOW" class="reset">
+      <label class="num-of-wow"
+        >Number of Wows
+        <input
+          type="range"
+          min="0"
+          max="10"
+          step="1"
+          class="slider"
+          id="wow-slide"
+        />
+      </label>
+      <input
+        type="number"
+        min="1996"
+        max="2017"
+        placeholder="Year"
+        class="number"
+      />
+      <input type="submit" value="WOW" class="submit" />
+      <input type="reset" value="UN-WOW" class="reset" />
     </form>
 
-    <ul id="output">
-    </ul>
-</body>
-
+    <ul id="output"></ul>
+  </body>
 </html>
