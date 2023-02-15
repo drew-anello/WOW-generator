@@ -1,4 +1,4 @@
-import { movie, year, video } from './wows'
+//import { movie, year, video } from './wows'
 // Vars
 const formEl = document.querySelector('form')
 const yearEl = document.querySelector('.number')
